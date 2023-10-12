@@ -1,0 +1,7 @@
+'mode=analsys, type=R'
+
+data = get.pageData('www.naver.com', auto)
+parse.data
+
+'natural'
+데이터에서 [부동산] 태그의 데이터를 모으고, 해당 데이터에 대한 전체적인 그래프를 짜줘.

@@ -1,0 +1,3 @@
+<serverconfig>
+.mode='web'
+.proxy=1

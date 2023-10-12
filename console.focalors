@@ -1,0 +1,27 @@
+'mode=console'
+
+connect.console('local')
+print(automatic.log())
+save('./shell.layla')
+> openShell. 
+
+# usage
+> ('>') this shell mean, "you can typing here"
+> typing command . . .
+
+res { res }
+>on.server -l
+
+res { from server agent }
+> server1 : web, on, memory=352mb
+> server2 : mcpe, on, memory=1024mb
+
+> open.server('type="sql", port=3306, bind=1227')
+
+res { from server agent }
+> server opened
+
+>export
+res { bye, auto server creater.layla us exported }
+
+

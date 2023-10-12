@@ -1,0 +1,18 @@
+'arisia, ai=on, file='main.layla''
+import config.noa # automatic find path in storage
+
+on = server
+on.server(port='8000', type='html')
+set.server(config.noa)
+
+set.server(load_balance{
+    'host': 3, 'protocol' : L4
+})
+
+'python, file='./main.py'
+import datetime
+
+proxy.script = datetime.daetime.now()
+
+'node, file='./node.js'
+alert(proxy.script)
